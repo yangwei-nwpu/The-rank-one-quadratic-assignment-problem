@@ -1,0 +1,54 @@
+Found incumbent of value 7.0279512e+007 after 116.92 sec. (120539.13 ticks)
+Clique table members: 3600.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 204.56 sec. (68155.86 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                      7.02795e+007 -5.32695e+010              --- 
+      0     0 -6.56712e+007   291  7.02795e+007 -6.56712e+007       43  193.44%
+*     0+    0                      6.59070e+007 -6.56712e+007           199.64%
+Elapsed time = 26.16 sec. (10128.56 ticks) for 50 of 200 candidates for Gomory cuts
+Elapsed time = 55.11 sec. (20317.77 ticks) for 97 of 200 candidates for Gomory cuts
+Elapsed time = 83.97 sec. (30505.91 ticks) for 144 of 200 candidates for Gomory cuts
+Elapsed time = 113.05 sec. (40695.23 ticks) for 191 of 200 candidates for Gomory cuts
+      0     0 -6.56712e+007   130  6.59070e+007    MIRcuts: 1     1756  199.64%
+*     0+    0                      6.51600e+007 -6.56712e+007           200.78%
+Elapsed time = 26.14 sec. (10077.29 ticks) for 51 of 130 candidates for Gomory cuts
+Elapsed time = 55.80 sec. (20126.21 ticks) for 99 of 130 candidates for Gomory cuts
+      0     0 -6.56712e+007    31  6.51600e+007       Cuts: 3     3366  200.78%
+      0     0 -6.56712e+007    58  6.51600e+007       Cuts: 2     6933  200.78%
+*     0+    0                      6.49800e+007 -6.56712e+007           201.06%
+*     0+    0                      6.46560e+007 -6.56712e+007           201.57%
+*     0+    0                      6.46380e+007 -6.56712e+007           201.60%
+*     0+    0                      6.33338e+007 -6.56712e+007           203.69%
+*     0+    0                      6.05474e+007 -6.56712e+007           208.46%
+*     0+    0                      5.97554e+007 -6.56712e+007           209.90%
+*     0+    0                      5.91510e+007 -6.56712e+007           211.02%
+*     0+    0                      5.90628e+007 -6.56712e+007           211.19%
+*     0+    0                      5.80157e+007 -6.56712e+007           213.20%
+*     0+    0                      5.34900e+007 -6.56712e+007           222.77%
+*     0+    0                      5.22686e+007 -6.56712e+007           225.64%
+      0     0 -6.56712e+007    71  5.22686e+007       Cuts: 2    10992  225.64%
+Heuristic still looking.
+Heuristic still looking.
+*     0+    0                      4.80707e+007 -6.56712e+007           236.61%
+*     0+    0                      4.66266e+007 -6.56712e+007           240.85%
+*     0+    0                      4.66076e+007 -6.56712e+007           240.90%
+      0     2 -6.56712e+007    71  4.66076e+007 -6.56712e+007    10992  240.90%
+Elapsed time = 1975.28 sec. (1902725.93 ticks, tree = 0.01 MB, solutions = 17)
+*     1     0      integral     0 -1.61610e+007 -6.56712e+007    82413  306.36%
+
+Flow cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             = 1906.72 sec. (1868541.65 ticks)
+Parallel b&c, 6 threads:
+  Real time             =  401.19 sec. (412066.34 ticks)
+  Sync time (average)   =  330.09 sec.
+  Wait time (average)   =  330.17 sec.
+                          ------------
+Total (root+branch&cut) = 2307.91 sec. (2280607.99 ticks)

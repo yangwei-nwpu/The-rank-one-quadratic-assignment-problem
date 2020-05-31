@@ -1,0 +1,25 @@
+Clique table members: 2000.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 433.01 sec. (124166.00 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0 -1.09727e+009 14241               -1.09727e+009      158         
+Elapsed time = 19.97 sec. (10038.95 ticks) for 93 of 200 candidates for Gomory cuts
+Elapsed time = 39.88 sec. (20079.76 ticks) for 186 of 200 candidates for Gomory cuts
+      0     0 -1.09726e+009 14302                    Cuts: 96      431         
+
+Implied bound cuts applied:  95
+Flow cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             = 3600.38 sec. (1294537.34 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) = 3600.38 sec. (1294537.34 ticks)

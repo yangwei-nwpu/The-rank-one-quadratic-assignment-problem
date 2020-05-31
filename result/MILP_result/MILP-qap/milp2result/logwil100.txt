@@ -1,0 +1,27 @@
+Found incumbent of value 321062.000000 after 0.05 sec. (63.42 ticks)
+Dual steepest-edge pricing selected.
+Clique table members: 200.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 0.03 sec. (39.37 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                       321062.0000        0.0000           100.00%
+Found incumbent of value 321062.000000 after 0.09 sec. (110.69 ticks)
+New incumbent written to file 'C:/Users/wei yang/Desktop/test/qapdata/milp2result/solutionfilewil100-00001.sol'.
+*     0     0      integral     0        0.0000        0.0000      536    0.00%
+Elapsed time = 0.09 sec. (111.28 ticks, tree = 0.00 MB, solutions = 2)
+Found incumbent of value 0.000000 after 0.09 sec. (111.28 ticks)
+New incumbent written to file 'C:/Users/wei yang/Desktop/test/qapdata/milp2result/solutionfilewil100-00002.sol'.
+
+Root node processing (before b&c):
+  Real time             =    0.11 sec. (111.50 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.11 sec. (111.50 ticks)

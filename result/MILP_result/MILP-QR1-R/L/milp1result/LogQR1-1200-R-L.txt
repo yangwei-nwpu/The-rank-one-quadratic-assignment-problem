@@ -1,0 +1,32 @@
+Found incumbent of value 2.6835020e+009 after 0.47 sec. (326.29 ticks)
+Clique table members: 2400.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 413.45 sec. (107504.81 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                      2.68350e+009        0.0000           100.00%
+      0     0  7.21497e+007  2799  2.68350e+009  7.21497e+007       45   97.31%
+Elapsed time = 20.59 sec. (10066.21 ticks) for 65 of 200 candidates for Gomory cuts
+Elapsed time = 41.09 sec. (20135.14 ticks) for 130 of 200 candidates for Gomory cuts
+Elapsed time = 61.98 sec. (30204.04 ticks) for 195 of 200 candidates for Gomory cuts
+      0     2  7.21497e+007  2799  2.68350e+009  7.21497e+007       45   97.31%
+Elapsed time = 1630.75 sec. (610800.59 ticks, tree = 0.01 MB, solutions = 1)
+      1     3  7.21739e+007  2769  2.68350e+009  7.21497e+007     6703   97.31%
+      2     4  7.21497e+007  2797  2.68350e+009  7.21497e+007     6729   97.31%
+      3     5  7.21740e+007  2766  2.68350e+009  7.21497e+007    14351   97.31%
+      4     6  7.21497e+007  2797  2.68350e+009  7.21497e+007    14359   97.31%
+
+There may be further error information in the clone logs.
+
+Root node processing (before b&c):
+  Real time             = 1603.30 sec. (602709.56 ticks)
+Parallel b&c, 6 threads:
+  Real time             = 1759.64 sec. (1643672.26 ticks)
+  Sync time (average)   = 1458.84 sec.
+  Wait time (average)   = 1459.20 sec.
+                          ------------
+Total (root+branch&cut) = 3362.94 sec. (2246381.81 ticks)

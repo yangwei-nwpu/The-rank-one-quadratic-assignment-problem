@@ -1,0 +1,59 @@
+Found incumbent of value 2.6780580e+008 after 140.84 sec. (210685.98 ticks)
+Clique table members: 3600.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 136.98 sec. (73501.26 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                      2.67806e+008        0.0000           100.00%
+      0     0  2.40158e+008     1  2.67806e+008  2.40158e+008       47   10.32%
+      0     0  2.40158e+008   175  2.67806e+008    MIRcuts: 1       49   10.32%
+Elapsed time = 18.92 sec. (10159.05 ticks) for 54 of 175 candidates for Gomory cuts
+Elapsed time = 37.75 sec. (20324.22 ticks) for 108 of 175 candidates for Gomory cuts
+Elapsed time = 56.69 sec. (30489.46 ticks) for 162 of 175 candidates for Gomory cuts
+Heuristic still looking.
+*     0+    0                      2.67752e+008  2.40158e+008            10.31%
+      0     2  2.40158e+008   175  2.67752e+008  2.40158e+008       49   10.31%
+Elapsed time = 493.05 sec. (495087.93 ticks, tree = 0.01 MB, solutions = 2)
+      1     3  2.40158e+008     1  2.67752e+008  2.40158e+008       51   10.31%
+      2     4  2.40158e+008     1  2.67752e+008  2.40158e+008       52   10.31%
+*     3     3      integral     0  2.43818e+008  2.40158e+008     9954    1.50%
+      3     3  2.43818e+008     0  2.43818e+008  2.40158e+008     9954    1.50%
+      4     4  2.40158e+008     1  2.43818e+008  2.40158e+008     9955    1.50%
+      5     5  2.40158e+008     1  2.43818e+008  2.40158e+008     9956    1.50%
+      6     6  2.40158e+008     1  2.43818e+008  2.40158e+008     9958    1.50%
+*     7     5      integral     0  2.41674e+008  2.40158e+008    23663    0.63%
+      7     5  2.41674e+008     0  2.41674e+008  2.40158e+008    23663    0.63%
+      8     6  2.41576e+008    68  2.41674e+008  2.40158e+008    29057    0.63%
+      9     7  2.41576e+008    76  2.41674e+008  2.40158e+008    29184    0.63%
+     10     8  2.41576e+008   166  2.41674e+008  2.40158e+008    29298    0.63%
+Elapsed time = 923.28 sec. (944109.67 ticks, tree = 0.01 MB, solutions = 3)
+     11     9  2.40158e+008     1  2.41674e+008  2.40158e+008    29299    0.63%
+     12    10  2.41576e+008   170  2.41674e+008  2.40158e+008    29300    0.63%
+*    13     9      integral     0  2.40455e+008  2.40158e+008    34974    0.12%
+     13     9  2.40455e+008     0  2.40455e+008  2.40158e+008    34974    0.12%
+     14     8  2.41576e+008   102  2.40455e+008  2.40158e+008    35079    0.12%
+     15     7  2.41576e+008   136  2.40455e+008  2.40158e+008    35123    0.12%
+     16     8  2.40158e+008     1  2.40455e+008  2.40158e+008    35126    0.12%
+     17     9  2.41576e+008   166  2.40455e+008  2.40158e+008    35163    0.12%
+     18     5  2.40158e+008     1  2.40455e+008  2.40158e+008    35164    0.12%
+     19     4        cutoff        2.40455e+008  2.40158e+008    35165    0.12%
+     20     3        cutoff        2.40455e+008  2.40158e+008    35166    0.12%
+Elapsed time = 1199.72 sec. (1104543.46 ticks, tree = 0.01 MB, solutions = 9)
+     21     4  2.40158e+008     1  2.40455e+008  2.40158e+008    35167    0.12%
+*    22     3      integral     0  2.40175e+008  2.40158e+008    35191    0.01%
+     22     3  2.40175e+008     0  2.40175e+008  2.40158e+008    35191    0.01%
+
+Mixed integer rounding cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =  487.66 sec. (490576.97 ticks)
+Parallel b&c, 6 threads:
+  Real time             =  717.31 sec. (631705.40 ticks)
+  Sync time (average)   =  459.43 sec.
+  Wait time (average)   =  460.02 sec.
+                          ------------
+Total (root+branch&cut) = 1204.97 sec. (1122282.37 ticks)

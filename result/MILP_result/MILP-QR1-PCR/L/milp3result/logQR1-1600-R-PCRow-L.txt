@@ -1,0 +1,10 @@
+CPXPARAM_Preprocessing_Presolve                  0
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Conflict_Display                        2
+CPXPARAM_Sifting_Display                         2
+CPXPARAM_Output_WriteLevel                       3
+CPXPARAM_Output_CloneLog                         1
+CPXPARAM_MIP_Display                             3
+CPXPARAM_MIP_Limits_AuxRootThreads               -1
+CPXPARAM_Output_IntSolFilePrefix                 "C:/Users/wei yang/Desktop/test/test50/QR1-R-PCRow-L/milp3result/solutionfileQR1-1600-R-PCRow-L"
+CPXPARAM_Barrier_Display                         2

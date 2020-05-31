@@ -1,0 +1,29 @@
+Dual steepest-edge pricing selected.
+Clique table members: 738.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 0.28 sec. (387.93 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0  2.85039e+007     5                2.85039e+007       23         
+      0     0  2.85039e+007     6                  MIRcuts: 1       26         
+      0     0  2.85039e+007     4                 Flowcuts: 1       31         
+      0     0  2.85039e+007    13                   Covers: 1       57         
+*     0+    0                      2.85042e+007  2.85039e+007             0.00%
+Found incumbent of value 2.8504172e+007 after 1.75 sec. (4749.06 ticks)
+New incumbent written to file 'C:/Users/wei yang/Desktop/test/test50/QR1-R-PCRow-L/milp3result/solutionfileQR1-200-R-PCRow-L-00001.sol'.
+
+Cover cuts applied:  1
+Mixed integer rounding cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    1.77 sec. (4749.68 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    1.77 sec. (4749.68 ticks)

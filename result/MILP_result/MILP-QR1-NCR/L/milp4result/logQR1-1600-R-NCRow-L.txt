@@ -1,0 +1,37 @@
+Found incumbent of value 4.9159064e+009 after 87.89 sec. (124276.16 ticks)
+Dual steepest-edge pricing selected.
+Clique table members: 37086.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 889.25 sec. (405475.20 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                      4.91591e+009        0.0000           100.00%
+Found incumbent of value 4.9159064e+009 after 982.22 sec. (533902.05 ticks)
+New incumbent written to file 'C:/Users/wei yang/Desktop/test/test50/QR1-R-NCRow-L/milp4result/solutionfileQR1-1600-R-NCRow-L-00001.sol'.
+      0     0  2.54465e+009 11302  4.91591e+009  2.54465e+009      121   48.24%
+Elapsed time = 27.95 sec. (10052.86 ticks) for 73 of 200 candidates for Gomory cuts
+Elapsed time = 56.23 sec. (20109.86 ticks) for 146 of 200 candidates for Gomory cuts
+      0     0  2.55024e+009 13275  4.91591e+009    Cuts: 4078    17574   48.12%
+Elapsed time = 29.84 sec. (10113.05 ticks) for 77 of 200 candidates for Gomory cuts
+Elapsed time = 60.16 sec. (20230.36 ticks) for 154 of 200 candidates for Gomory cuts
+      0     0  2.55512e+009 13874  4.91591e+009    Cuts: 3748    41435   48.02%
+      0     0  2.55899e+009 14269  4.91591e+009    Cuts: 3047    55295   47.94%
+
+Cover cuts applied:  1767
+Implied bound cuts applied:  108
+Flow cuts applied:  643
+Mixed integer rounding cuts applied:  2228
+Zero-half cuts applied:  1169
+
+Root node processing (before b&c):
+  Real time             = 3600.30 sec. (4675563.20 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) = 3600.30 sec. (4675563.20 ticks)

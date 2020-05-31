@@ -1,0 +1,83 @@
+Tried aggregator 1 time.
+MIP Presolve modified 9800 coefficients.
+Reduced MIP has 790 rows, 10224 columns, and 40892 nonzeros.
+Reduced MIP has 10028 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.05 sec. (55.54 ticks)
+Found incumbent of value 2.0525088e+007 after 0.13 sec. (128.44 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 790 rows, 10224 columns, and 40892 nonzeros.
+Reduced MIP has 10224 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (18.41 ticks)
+Dual steepest-edge pricing selected.
+Probing time = 0.02 sec. (5.28 ticks)
+Clique table members: 592.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 0.08 sec. (94.15 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                      2.05251e+007    12610.0000            99.94%
+Found incumbent of value 2.0525088e+007 after 0.27 sec. (260.71 ticks)
+New incumbent written to file 'C:/Users/wei yang/Desktop/test/qapdata/milp3result/solutionfiletai100a-00001.sol'.
+      0     0   164398.0000     3  2.05251e+007   164398.0000     1231   99.20%
+      0     0   164473.3697    48  2.05251e+007    MIRcuts: 2     1264   99.20%
+      0     0   164473.3836    74  2.05251e+007       Cuts: 2     1265   99.20%
+*     0+    0                       619404.0000   164473.3836            73.45%
+Found incumbent of value 619404.000000 after 0.52 sec. (930.82 ticks)
+New incumbent written to file 'C:/Users/wei yang/Desktop/test/qapdata/milp3result/solutionfiletai100a-00002.sol'.
+      0     2   164473.3836    74   619404.0000   164473.3836     1265   73.45%
+Elapsed time = 0.92 sec. (1070.15 ticks, tree = 0.01 MB, solutions = 2)
+      4     6   321232.0000    15   619404.0000   164561.8564     1812   73.43%
+      6     8   321232.0000    17   619404.0000   164561.8564     2095   73.43%
+      8    10   515196.0000    10   619404.0000   164561.8564     2261   73.43%
+     10    12   164682.2879    47   619404.0000   164594.0211     2342   73.43%
+                                                    Covers: 2                  
+     11    13   341837.4001    46   619404.0000   164594.0211     2453   73.43%
+     12    14   612454.0000    20   619404.0000   164594.0211     2460   73.43%
+     13    15   586327.6712    63   619404.0000   164594.0211     2595   73.43%
+*    14+   14                       618464.0000   164594.0211            73.39%
+Found incumbent of value 618464.000000 after 1.30 sec. (1659.55 ticks)
+New incumbent written to file 'C:/Users/wei yang/Desktop/test/qapdata/milp3result/solutionfiletai100a-00003.sol'.
+     65    45   165011.4234    37   618464.0000   164594.0211     4201   73.39%
+     71    47   166000.2128    56   618464.0000   164594.0211     4306   73.39%
+                                                    Covers: 1                  
+*    90    55      integral     0   613696.0000   164594.0211     5897   73.18%
+Found incumbent of value 613696.000000 after 1.45 sec. (1928.78 ticks)
+New incumbent written to file 'C:/Users/wei yang/Desktop/test/qapdata/milp3result/solutionfiletai100a-00004.sol'.
+*   148    73      integral     0   492760.0000   164594.0211     8793   66.60%
+                                                    Covers: 2                  
+Found incumbent of value 492760.000000 after 1.55 sec. (2181.03 ticks)
+New incumbent written to file 'C:/Users/wei yang/Desktop/test/qapdata/milp3result/solutionfiletai100a-00005.sol'.
+*   214    42      integral     0   462160.0000   164845.7434    14654   64.33%
+                                                    Covers: 1                  
+Found incumbent of value 462160.000000 after 1.75 sec. (2520.10 ticks)
+New incumbent written to file 'C:/Users/wei yang/Desktop/test/qapdata/milp3result/solutionfiletai100a-00006.sol'.
+*   257    48      integral     0   461742.0000   164845.7434    15466   64.30%
+Found incumbent of value 461742.000000 after 1.75 sec. (2556.98 ticks)
+New incumbent written to file 'C:/Users/wei yang/Desktop/test/qapdata/milp3result/solutionfiletai100a-00007.sol'.
+*   280+   25                       460800.0000   165072.3187            64.18%
+                                                    Covers: 4                  
+Found incumbent of value 460800.000000 after 1.87 sec. (2772.84 ticks)
+New incumbent written to file 'C:/Users/wei yang/Desktop/test/qapdata/milp3result/solutionfiletai100a-00008.sol'.
+*   318+   27                       460284.0000   166398.0992            63.85%
+                                                    Covers: 6                  
+Found incumbent of value 460284.000000 after 1.97 sec. (3055.07 ticks)
+New incumbent written to file 'C:/Users/wei yang/Desktop/test/qapdata/milp3result/solutionfiletai100a-00009.sol'.
+*   329    26      integral     0   455424.0000   166398.0992    18882   63.46%
+Found incumbent of value 455424.000000 after 1.97 sec. (3059.67 ticks)
+New incumbent written to file 'C:/Users/wei yang/Desktop/test/qapdata/milp3result/solutionfiletai100a-00010.sol'.
+
+Cover cuts applied:  19
+Mixed integer rounding cuts applied:  3
+
+Root node processing (before b&c):
+  Real time             =    0.89 sec. (1067.84 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    1.16 sec. (2241.79 ticks)
+  Sync time (average)   =    0.54 sec.
+  Wait time (average)   =    0.56 sec.
+                          ------------
+Total (root+branch&cut) =    2.05 sec. (3309.63 ticks)

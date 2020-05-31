@@ -1,0 +1,29 @@
+Dual steepest-edge pricing selected.
+Clique table members: 3442.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 95.51 sec. (46746.70 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0  1.70157e+008     1                1.70157e+008    31596         
+      0     0  1.70157e+008   149                  MIRcuts: 1    31628         
+Heuristic still looking.
+*     0+    0                      1.70157e+008  1.70157e+008             0.00%
+Found incumbent of value 1.7015710e+008 after 307.55 sec. (339837.00 ticks)
+New incumbent written to file 'C:/Users/wei yang/Desktop/test/test10/QR1-R-PCVct-S/milp3result/solutionfileQR1-1600-R-PCVct-S-00001.sol'.
+      0     0        cutoff        1.70157e+008  1.70157e+008    31628    0.00%
+Elapsed time = 307.69 sec. (339837.00 ticks, tree = 0.01 MB, solutions = 1)
+
+Mixed integer rounding cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =  307.89 sec. (339876.08 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =  307.89 sec. (339876.08 ticks)

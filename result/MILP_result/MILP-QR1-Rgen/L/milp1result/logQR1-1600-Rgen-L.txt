@@ -1,0 +1,14 @@
+Clique table members: 3200.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 3549.17 sec. (6680361.51 ticks)
+
+Root node processing (before b&c):
+  Real time             = 3603.55 sec. (6715433.63 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) = 3603.55 sec. (6715433.63 ticks)

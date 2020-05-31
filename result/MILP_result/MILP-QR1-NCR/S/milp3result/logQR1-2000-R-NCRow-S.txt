@@ -1,0 +1,62 @@
+Clique table members: 4392.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 192.61 sec. (92619.24 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0  1.96455e+008     1                1.96455e+008       44         
+      0     0  1.96455e+008   479                  MIRcuts: 1       45         
+Heuristic still looking.
+      0     2  1.96455e+008   479                1.96455e+008       45         
+Elapsed time = 734.12 sec. (819394.33 ticks, tree = 0.01 MB, solutions = 0)
+      1     3  1.96455e+008     1                1.96455e+008       46         
+      2     4  1.96455e+008     1                1.96455e+008       48         
+      3     5  1.96455e+008   507                1.96455e+008       49         
+      4     6  1.96455e+008     1                1.96455e+008       51         
+      5     7  1.96455e+008     1                1.96455e+008       52         
+      6     8  1.96455e+008     1                1.96455e+008       53         
+      7     9  2.55466e+008    92                1.96455e+008    41727         
+      8    10  1.96455e+008     1                1.96455e+008    41728         
+      9    11  2.55466e+008   118                1.96455e+008    41758         
+     10    12  1.96455e+008     1                1.96455e+008    41759         
+Elapsed time = 971.53 sec. (1045092.68 ticks, tree = 0.01 MB, solutions = 0)
+     12    14  2.55466e+008   118                1.96455e+008    41794         
+     13    15  2.10963e+008    69                1.96455e+008    62045         
+     14    16  2.55466e+008   116                1.96455e+008    62066         
+     15    17  1.96455e+008     1                1.96455e+008    62068         
+     17    19  2.55466e+008    46                1.96455e+008    62081         
+     18    20  2.55466e+008   110                1.96455e+008    62102         
+     19    21  1.96455e+008     1                1.96455e+008    62104         
+     20    22  1.96455e+008     1                1.96455e+008    62107         
+     21    23  1.96455e+008     1                1.96455e+008    62108         
+     22    24  1.96455e+008     1                1.96455e+008    62110         
+Elapsed time = 1168.09 sec. (1048666.52 ticks, tree = 0.01 MB, solutions = 0)
+     23    25  1.96455e+008     1                1.96455e+008    62112         
+     24    26  1.96455e+008     1                1.96455e+008    62113         
+     25    27  1.96455e+008     1                1.96455e+008    62114         
+     26    28  1.96455e+008     1                1.96455e+008    62116         
+     27    29  1.96455e+008     1                1.96455e+008    62117         
+     28    30  1.96455e+008     1                1.96455e+008    62118         
+     29    31  1.96455e+008     1                1.96455e+008    62119         
+     30    32  1.96455e+008     1                1.96455e+008    62120         
+     31    33  1.96455e+008     1                1.96455e+008    62121         
+     32    34  1.96455e+008     1                1.96455e+008    62122         
+Elapsed time = 1168.09 sec. (1056970.69 ticks, tree = 0.01 MB, solutions = 0)
+*    33    30      integral     0  1.96494e+008  1.96455e+008    62305    0.02%
+     33    30  1.96494e+008     0  1.96494e+008  1.96455e+008    62305    0.02%
+
+There may be further error information in the clone logs.
+
+Mixed integer rounding cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =  715.84 sec. (813568.77 ticks)
+Parallel b&c, 6 threads:
+  Real time             =  454.08 sec. (387775.00 ticks)
+  Sync time (average)   =  336.77 sec.
+  Wait time (average)   =  337.10 sec.
+                          ------------
+Total (root+branch&cut) = 1169.92 sec. (1201343.77 ticks)

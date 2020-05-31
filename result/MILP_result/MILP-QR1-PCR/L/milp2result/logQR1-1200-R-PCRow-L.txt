@@ -1,0 +1,25 @@
+Found incumbent of value 2.6771983e+009 after 17.12 sec. (39243.08 ticks)
+Clique table members: 2400.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 44.14 sec. (19669.43 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                      2.67720e+009        0.0000           100.00%
+      0     0  1.07228e+009     3  2.67720e+009  1.07228e+009       33   59.95%
+      0     0  1.07228e+009    11  2.67720e+009   Flowcuts: 1       34   59.95%
+*     0+    0                      1.07229e+009  1.07228e+009             0.00%
+
+Flow cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =   79.17 sec. (71166.58 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =   79.17 sec. (71166.58 ticks)

@@ -1,0 +1,266 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
+<CPLEXSolution version="1.2">
+ <header
+   problemName="IloCplex"
+   solutionName="p0"
+   solutionIndex="-1"
+   objectiveValue="-19550654"
+   solutionTypeValue="3"
+   solutionTypeString="primal"
+   solutionStatusValue="127"
+   solutionStatusString="integer feasible solution"
+   solutionMethodString="mip"
+   primalFeasible="0"
+   dualFeasible="0"
+   writeLevel="3"/>
+ <quality
+   epInt="1.0000000000000001e-05"
+   epRHS="9.9999999999999995e-07"
+   maxIntInfeas="0"
+   maxPrimalInfeas="0"
+   maxX="1"
+   maxSlack="1"/>
+ <variables>
+  <variable name="w0_0" index="0" value="1"/>
+  <variable name="w0_4" index="4" value="1"/>
+  <variable name="w0_5" index="5" value="1"/>
+  <variable name="w0_7" index="7" value="1"/>
+  <variable name="w0_8" index="8" value="1"/>
+  <variable name="w2_0" index="28" value="1"/>
+  <variable name="w2_4" index="32" value="1"/>
+  <variable name="w2_5" index="33" value="1"/>
+  <variable name="w2_7" index="35" value="1"/>
+  <variable name="w2_8" index="36" value="1"/>
+  <variable name="w4_0" index="56" value="1"/>
+  <variable name="w4_4" index="60" value="1"/>
+  <variable name="w4_5" index="61" value="1"/>
+  <variable name="w4_7" index="63" value="1"/>
+  <variable name="w4_8" index="64" value="1"/>
+  <variable name="w8_0" index="112" value="1"/>
+  <variable name="w8_4" index="116" value="1"/>
+  <variable name="w8_5" index="117" value="1"/>
+  <variable name="w8_7" index="119" value="1"/>
+  <variable name="w8_8" index="120" value="1"/>
+  <variable name="w10_0" index="140" value="1"/>
+  <variable name="w10_4" index="144" value="1"/>
+  <variable name="w10_5" index="145" value="1"/>
+  <variable name="w10_7" index="147" value="1"/>
+  <variable name="w10_8" index="148" value="1"/>
+  <variable name="w13_0" index="182" value="1"/>
+  <variable name="w13_4" index="186" value="1"/>
+  <variable name="w13_5" index="187" value="1"/>
+  <variable name="w13_7" index="189" value="1"/>
+  <variable name="w13_8" index="190" value="1"/>
+  <variable name="k0" index="196" value="1"/>
+  <variable name="k2" index="198" value="1"/>
+  <variable name="k4" index="200" value="1"/>
+  <variable name="k8" index="204" value="1"/>
+  <variable name="k10" index="206" value="1"/>
+  <variable name="k13" index="209" value="1"/>
+  <variable name="u0" index="210" value="1"/>
+  <variable name="u4" index="214" value="1"/>
+  <variable name="u5" index="215" value="1"/>
+  <variable name="u7" index="217" value="1"/>
+  <variable name="u8" index="218" value="1"/>
+  <variable name="x0_152" index="376" value="1"/>
+  <variable name="x1_78" index="502" value="1"/>
+  <variable name="x2_180" index="804" value="1"/>
+  <variable name="x3_12" index="836" value="1"/>
+  <variable name="x4_179" index="1203" value="1"/>
+  <variable name="x5_163" index="1387" value="1"/>
+  <variable name="x6_83" index="1507" value="1"/>
+  <variable name="x7_31" index="1655" value="1"/>
+  <variable name="x8_63" index="1887" value="1"/>
+  <variable name="x9_176" index="2200" value="1"/>
+  <variable name="x10_167" index="2391" value="1"/>
+  <variable name="x11_154" index="2578" value="1"/>
+  <variable name="x12_101" index="2725" value="1"/>
+  <variable name="x13_145" index="2969" value="1"/>
+  <variable name="x14_174" index="3198" value="1"/>
+  <variable name="x15_111" index="3335" value="1"/>
+  <variable name="x16_62" index="3486" value="1"/>
+  <variable name="x17_133" index="3757" value="1"/>
+  <variable name="x18_25" index="3849" value="1"/>
+  <variable name="x19_142" index="4166" value="1"/>
+  <variable name="x20_33" index="4257" value="1"/>
+  <variable name="x21_28" index="4452" value="1"/>
+  <variable name="x22_158" index="4782" value="1"/>
+  <variable name="x23_49" index="4873" value="1"/>
+  <variable name="x24_107" index="5131" value="1"/>
+  <variable name="x25_65" index="5289" value="1"/>
+  <variable name="x26_55" index="5479" value="1"/>
+  <variable name="x27_1" index="5625" value="1"/>
+  <variable name="x28_57" index="5881" value="1"/>
+  <variable name="x29_189" index="6213" value="1"/>
+  <variable name="x30_110" index="6334" value="1"/>
+  <variable name="x31_164" index="6588" value="1"/>
+  <variable name="x32_148" index="6772" value="1"/>
+  <variable name="x33_193" index="7017" value="1"/>
+  <variable name="x34_132" index="7156" value="1"/>
+  <variable name="x35_36" index="7260" value="1"/>
+  <variable name="x36_64" index="7488" value="1"/>
+  <variable name="x37_20" index="7644" value="1"/>
+  <variable name="x38_182" index="8006" value="1"/>
+  <variable name="x39_151" index="8175" value="1"/>
+  <variable name="x40_5" index="8229" value="1"/>
+  <variable name="x41_84" index="8508" value="1"/>
+  <variable name="x42_121" index="8745" value="1"/>
+  <variable name="x43_13" index="8837" value="1"/>
+  <variable name="x44_14" index="9038" value="1"/>
+  <variable name="x45_191" index="9415" value="1"/>
+  <variable name="x46_149" index="9573" value="1"/>
+  <variable name="x47_19" index="9643" value="1"/>
+  <variable name="x48_8" index="9832" value="1"/>
+  <variable name="x49_124" index="10148" value="1"/>
+  <variable name="x50_137" index="10361" value="1"/>
+  <variable name="x51_129" index="10553" value="1"/>
+  <variable name="x52_52" index="10676" value="1"/>
+  <variable name="x53_199" index="11023" value="1"/>
+  <variable name="x54_9" index="11033" value="1"/>
+  <variable name="x55_58" index="11282" value="1"/>
+  <variable name="x56_195" index="11619" value="1"/>
+  <variable name="x57_3" index="11627" value="1"/>
+  <variable name="x58_37" index="11861" value="1"/>
+  <variable name="x59_7" index="12031" value="1"/>
+  <variable name="x60_38" index="12262" value="1"/>
+  <variable name="x61_72" index="12496" value="1"/>
+  <variable name="x62_40" index="12664" value="1"/>
+  <variable name="x63_85" index="12909" value="1"/>
+  <variable name="x64_16" index="13040" value="1"/>
+  <variable name="x65_104" index="13328" value="1"/>
+  <variable name="x66_81" index="13505" value="1"/>
+  <variable name="x67_0" index="13624" value="1"/>
+  <variable name="x68_128" index="13952" value="1"/>
+  <variable name="x69_105" index="14129" value="1"/>
+  <variable name="x70_93" index="14317" value="1"/>
+  <variable name="x71_161" index="14585" value="1"/>
+  <variable name="x72_168" index="14792" value="1"/>
+  <variable name="x73_18" index="14842" value="1"/>
+  <variable name="x74_118" index="15142" value="1"/>
+  <variable name="x75_102" index="15326" value="1"/>
+  <variable name="x76_144" index="15568" value="1"/>
+  <variable name="x77_127" index="15751" value="1"/>
+  <variable name="x78_60" index="15884" value="1"/>
+  <variable name="x79_6" index="16030" value="1"/>
+  <variable name="x80_153" index="16377" value="1"/>
+  <variable name="x81_136" index="16560" value="1"/>
+  <variable name="x82_146" index="16770" value="1"/>
+  <variable name="x83_75" index="16899" value="1"/>
+  <variable name="x84_94" index="17118" value="1"/>
+  <variable name="x85_42" index="17266" value="1"/>
+  <variable name="x86_159" index="17583" value="1"/>
+  <variable name="x87_70" index="17694" value="1"/>
+  <variable name="x88_187" index="18011" value="1"/>
+  <variable name="x89_47" index="18071" value="1"/>
+  <variable name="x90_112" index="18336" value="1"/>
+  <variable name="x91_196" index="18620" value="1"/>
+  <variable name="x92_97" index="18721" value="1"/>
+  <variable name="x93_91" index="18915" value="1"/>
+  <variable name="x94_183" index="19207" value="1"/>
+  <variable name="x95_106" index="19330" value="1"/>
+  <variable name="x96_99" index="19523" value="1"/>
+  <variable name="x97_39" index="19663" value="1"/>
+  <variable name="x98_173" index="19997" value="1"/>
+  <variable name="x99_82" index="20106" value="1"/>
+  <variable name="x100_61" index="20285" value="1"/>
+  <variable name="x101_103" index="20527" value="1"/>
+  <variable name="x102_100" index="20724" value="1"/>
+  <variable name="x103_92" index="20916" value="1"/>
+  <variable name="x104_29" index="21053" value="1"/>
+  <variable name="x105_135" index="21359" value="1"/>
+  <variable name="x106_114" index="21538" value="1"/>
+  <variable name="x107_30" index="21654" value="1"/>
+  <variable name="x108_26" index="21850" value="1"/>
+  <variable name="x109_109" index="22133" value="1"/>
+  <variable name="x110_141" index="22365" value="1"/>
+  <variable name="x111_113" index="22537" value="1"/>
+  <variable name="x112_74" index="22698" value="1"/>
+  <variable name="x113_188" index="23012" value="1"/>
+  <variable name="x114_71" index="23095" value="1"/>
+  <variable name="x115_79" index="23303" value="1"/>
+  <variable name="x116_46" index="23470" value="1"/>
+  <variable name="x117_120" index="23744" value="1"/>
+  <variable name="x118_122" index="23946" value="1"/>
+  <variable name="x119_119" index="24143" value="1"/>
+  <variable name="x120_134" index="24358" value="1"/>
+  <variable name="x121_150" index="24574" value="1"/>
+  <variable name="x122_98" index="24722" value="1"/>
+  <variable name="x123_53" index="24877" value="1"/>
+  <variable name="x124_90" index="25114" value="1"/>
+  <variable name="x125_170" index="25394" value="1"/>
+  <variable name="x126_80" index="25504" value="1"/>
+  <variable name="x127_130" index="25754" value="1"/>
+  <variable name="x128_131" index="25955" value="1"/>
+  <variable name="x129_185" index="26209" value="1"/>
+  <variable name="x130_198" index="26422" value="1"/>
+  <variable name="x131_156" index="26580" value="1"/>
+  <variable name="x132_89" index="26713" value="1"/>
+  <variable name="x133_43" index="26867" value="1"/>
+  <variable name="x134_186" index="27210" value="1"/>
+  <variable name="x135_86" index="27310" value="1"/>
+  <variable name="x136_169" index="27593" value="1"/>
+  <variable name="x137_32" index="27656" value="1"/>
+  <variable name="x138_116" index="27940" value="1"/>
+  <variable name="x139_108" index="28132" value="1"/>
+  <variable name="x140_66" index="28290" value="1"/>
+  <variable name="x141_178" index="28602" value="1"/>
+  <variable name="x142_73" index="28697" value="1"/>
+  <variable name="x143_138" index="28962" value="1"/>
+  <variable name="x144_123" index="29147" value="1"/>
+  <variable name="x145_59" index="29283" value="1"/>
+  <variable name="x146_126" index="29550" value="1"/>
+  <variable name="x147_160" index="29784" value="1"/>
+  <variable name="x148_175" index="29999" value="1"/>
+  <variable name="x149_197" index="30221" value="1"/>
+  <variable name="x150_17" index="30241" value="1"/>
+  <variable name="x151_41" index="30465" value="1"/>
+  <variable name="x152_2" index="30626" value="1"/>
+  <variable name="x153_15" index="30839" value="1"/>
+  <variable name="x154_11" index="31035" value="1"/>
+  <variable name="x155_67" index="31291" value="1"/>
+  <variable name="x156_68" index="31492" value="1"/>
+  <variable name="x157_171" index="31795" value="1"/>
+  <variable name="x158_95" index="31919" value="1"/>
+  <variable name="x159_22" index="32046" value="1"/>
+  <variable name="x160_50" index="32274" value="1"/>
+  <variable name="x161_27" index="32451" value="1"/>
+  <variable name="x162_166" index="32790" value="1"/>
+  <variable name="x163_35" index="32859" value="1"/>
+  <variable name="x164_157" index="33181" value="1"/>
+  <variable name="x165_56" index="33280" value="1"/>
+  <variable name="x166_143" index="33567" value="1"/>
+  <variable name="x167_76" index="33700" value="1"/>
+  <variable name="x168_24" index="33848" value="1"/>
+  <variable name="x169_54" index="34078" value="1"/>
+  <variable name="x170_181" index="34405" value="1"/>
+  <variable name="x171_192" index="34616" value="1"/>
+  <variable name="x172_34" index="34658" value="1"/>
+  <variable name="x173_21" index="34845" value="1"/>
+  <variable name="x174_140" index="35164" value="1"/>
+  <variable name="x175_177" index="35401" value="1"/>
+  <variable name="x176_117" index="35541" value="1"/>
+  <variable name="x177_45" index="35669" value="1"/>
+  <variable name="x178_115" index="35939" value="1"/>
+  <variable name="x179_77" index="36101" value="1"/>
+  <variable name="x180_44" index="36268" value="1"/>
+  <variable name="x181_69" index="36493" value="1"/>
+  <variable name="x182_139" index="36763" value="1"/>
+  <variable name="x183_87" index="36911" value="1"/>
+  <variable name="x184_147" index="37171" value="1"/>
+  <variable name="x185_88" index="37312" value="1"/>
+  <variable name="x186_165" index="37589" value="1"/>
+  <variable name="x187_172" index="37796" value="1"/>
+  <variable name="x188_162" index="37986" value="1"/>
+  <variable name="x189_23" index="38047" value="1"/>
+  <variable name="x190_190" index="38414" value="1"/>
+  <variable name="x191_155" index="38579" value="1"/>
+  <variable name="x192_125" index="38749" value="1"/>
+  <variable name="x193_4" index="38828" value="1"/>
+  <variable name="x194_184" index="39208" value="1"/>
+  <variable name="x195_10" index="39234" value="1"/>
+  <variable name="x196_51" index="39475" value="1"/>
+  <variable name="x197_48" index="39672" value="1"/>
+  <variable name="x198_96" index="39920" value="1"/>
+  <variable name="x199_194" index="40218" value="1"/>
+ </variables>
+</CPLEXSolution>

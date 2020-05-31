@@ -1,0 +1,30 @@
+Found incumbent of value 2.1293070e+008 after 141.06 sec. (303184.82 ticks)
+Clique table members: 3200.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 106.91 sec. (54847.34 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                      2.12931e+008        0.0000           100.00%
+      0     0  8.61445e+007     1  2.12931e+008  8.61445e+007       47   59.54%
+      0     0  8.61445e+007   281  2.12931e+008    MIRcuts: 1       48   59.54%
+Elapsed time = 24.36 sec. (10054.52 ticks) for 81 of 200 candidates for Gomory cuts
+Elapsed time = 48.83 sec. (20132.44 ticks) for 162 of 200 candidates for Gomory cuts
+Heuristic still looking.
+*     0+    0                      8.61445e+007  8.61445e+007             0.00%
+      0     0        cutoff        8.61445e+007  8.61445e+007       48    0.00%
+Elapsed time = 408.34 sec. (496592.43 ticks, tree = 0.01 MB, solutions = 2)
+
+Mixed integer rounding cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =  408.55 sec. (496648.60 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =  408.55 sec. (496648.60 ticks)

@@ -1,0 +1,77 @@
+Dual steepest-edge pricing selected.
+Clique table members: 2880.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 46.11 sec. (18174.64 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0  1.07228e+009     3                1.07228e+009       29         
+      0     0  1.07228e+009     6                  MIRcuts: 1       33         
+      0     0  1.07228e+009    10                  MIRcuts: 1       39         
+      0     2  1.07228e+009    10                1.07228e+009       39         
+Elapsed time = 180.97 sec. (110428.04 ticks, tree = 0.01 MB, solutions = 0)
+      1     3  1.07228e+009     3                1.07228e+009       42         
+      2     4  1.07228e+009     2                1.07228e+009       43         
+      3     5  1.07319e+009    16                1.07228e+009     2793         
+      4     6  1.07319e+009    40                1.07228e+009     2837         
+      5     7  1.07228e+009     3                1.07228e+009     2839         
+*     6     6      integral     0  1.07319e+009  1.07228e+009     2840    0.09%
+Found incumbent of value 1.0731931e+009 after 226.53 sec. (160397.37 ticks)
+New incumbent written to file 'C:/Users/wei yang/Desktop/test/test50/QR1-R-PCRow-L/milp3result/solutionfileQR1-1200-R-PCRow-L-00001.sol'.
+      7     6  1.07319e+009    68  1.07319e+009  1.07228e+009     2863    0.09%
+      8     5  1.07228e+009     7  1.07319e+009  1.07228e+009     2873    0.09%
+      9     4    infeasible        1.07319e+009  1.07228e+009     2873    0.09%
+     10     5  1.07229e+009    13  1.07319e+009  1.07228e+009     2893    0.09%
+     11     4    infeasible        1.07319e+009  1.07228e+009     2893    0.09%
+Elapsed time = 243.91 sec. (204119.92 ticks, tree = 0.01 MB, solutions = 2)
+     12     5  1.07229e+009     8  1.07319e+009  1.07228e+009     2902    0.09%
+     13     4        cutoff        1.07319e+009  1.07228e+009     3887    0.09%
+     14     5  1.07229e+009    52  1.07319e+009  1.07229e+009     4019    0.08%
+     15     6  1.07263e+009    10  1.07319e+009  1.07229e+009     5883    0.08%
+     16     7  1.07229e+009    17  1.07319e+009  1.07229e+009     5892    0.08%
+     17     8  1.07263e+009    10  1.07319e+009  1.07229e+009     5894    0.08%
+     18     9  1.07229e+009    17  1.07319e+009  1.07229e+009     5895    0.08%
+*    19     8      integral     0  1.07263e+009  1.07229e+009     5896    0.03%
+Found incumbent of value 1.0726300e+009 after 264.00 sec. (231311.94 ticks)
+New incumbent written to file 'C:/Users/wei yang/Desktop/test/test50/QR1-R-PCRow-L/milp3result/solutionfileQR1-1200-R-PCRow-L-00002.sol'.
+     22     6  1.07229e+009    16  1.07263e+009  1.07229e+009     5987    0.03%
+*    23     5      integral     0  1.07254e+009  1.07229e+009     7059    0.02%
+Found incumbent of value 1.0725439e+009 after 278.53 sec. (243828.76 ticks)
+New incumbent written to file 'C:/Users/wei yang/Desktop/test/test50/QR1-R-PCRow-L/milp3result/solutionfileQR1-1200-R-PCRow-L-00003.sol'.
+     24     6  1.07229e+009    60  1.07254e+009  1.07229e+009     7082    0.02%
+     27     9  1.07229e+009    16  1.07254e+009  1.07229e+009     7121    0.02%
+Elapsed time = 285.44 sec. (250530.73 ticks, tree = 0.01 MB, solutions = 4)
+     28    10  1.07235e+009     4  1.07254e+009  1.07229e+009     7502    0.02%
+     29    11  1.07229e+009    88  1.07254e+009  1.07229e+009     7504    0.02%
+     30    12  1.07229e+009    46  1.07254e+009  1.07229e+009     7546    0.02%
+     31    13  1.07235e+009     4  1.07254e+009  1.07229e+009     7547    0.02%
+     32    14  1.07229e+009    16  1.07254e+009  1.07229e+009     7548    0.02%
+*    33    13      integral     0  1.07235e+009  1.07229e+009     7549    0.01%
+Found incumbent of value 1.0723498e+009 after 294.05 sec. (262738.51 ticks)
+New incumbent written to file 'C:/Users/wei yang/Desktop/test/test50/QR1-R-PCRow-L/milp3result/solutionfileQR1-1200-R-PCRow-L-00004.sol'.
+     34    13  1.07229e+009    56  1.07235e+009  1.07229e+009     7557    0.01%
+     37    14  1.07229e+009    16  1.07235e+009  1.07229e+009     7723    0.01%
+     38    15  1.07229e+009    98  1.07235e+009  1.07229e+009     7732    0.01%
+     40    17  1.07229e+009    47  1.07235e+009  1.07229e+009     7796    0.01%
+     41    18  1.07229e+009    35  1.07235e+009  1.07229e+009     7799    0.01%
+Elapsed time = 304.95 sec. (264131.49 ticks, tree = 0.01 MB, solutions = 4)
+     42    19  1.07229e+009     5  1.07235e+009  1.07229e+009     7802    0.01%
+     43    20  1.07230e+009    53  1.07235e+009  1.07229e+009     8114    0.01%
+     44    19    infeasible        1.07235e+009  1.07229e+009     8167    0.01%
+*    45    16      integral     0  1.07229e+009  1.07229e+009     8168    0.00%
+Found incumbent of value 1.0722912e+009 after 304.95 sec. (267051.44 ticks)
+New incumbent written to file 'C:/Users/wei yang/Desktop/test/test50/QR1-R-PCRow-L/milp3result/solutionfileQR1-1200-R-PCRow-L-00005.sol'.
+
+Mixed integer rounding cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =  176.99 sec. (109116.58 ticks)
+Parallel b&c, 6 threads:
+  Real time             =  128.86 sec. (169890.89 ticks)
+  Sync time (average)   =   84.22 sec.
+  Wait time (average)   =   84.63 sec.
+                          ------------
+Total (root+branch&cut) =  305.84 sec. (279007.47 ticks)
