@@ -1,0 +1,1 @@
+There are four outputs in the solution file, corresponding to the four initial solutions 
