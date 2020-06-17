@@ -1,11 +1,14 @@
-1. The format of the test file is as follows:
+We upload the problem instances studied in the Informs Journal on Computing paper ¡°The rank one quadratic assignment problem¡± 
+and the best solution for each instance obtained by the MILP models and Breakout Local Search algorithms. 
 
-First row: the size of test case
+The format of each problem instance QR1-n-xxx is organized as follows:
 
-Then, follewed by the elements of matrix which correspond to the matrix A, B and C.
+line 1: the size n of the instance
+the following n lines: the matrix A
+the following n lines: the matrix B
+the following n lines: the matrix C
 
-2. The format of the solution file is as follows:
+The format of each best solution file is organized as follows:
 
-First row: the best value found by algorithm.
-
-Third row: The best solution found by algorithm.
+line 1: the objective function value of the best solution
+line 3: a permutation of 1,2, ¡­, n to represent the best solution obtained by solving this instance. 
