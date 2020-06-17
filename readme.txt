@@ -9,6 +9,6 @@ Then, follewed by the elements of matrix which correspond to the matrix A, B and
 
 2. The format of the solution file is as follows:
 
-First row: the best value found by the corresponding algorithm.
+First row: the best value found by algorithm.
 
-Third row: The best solution found by the corresponding algorithm.
+Third row: The best solution found by algorithm.
