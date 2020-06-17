@@ -11,4 +11,4 @@ the following n lines: the matrix C
 The format of each best solution file is organized as follows:
 
 line 1: the objective function value of the best solution
-line 3: a permutation of 1, 2, ...,n to represent the best solution obtained by solving this instance. 
+line 3: a permutation of 1, 2, ..., n to represent the best solution obtained by solving this instance. 
