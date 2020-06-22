@@ -1,12 +1,12 @@
 
 "Random_generator.cpp" is used to generated the test case of "QR1-xxx-R-S" and "QR1-xxx-R-L". "XXX" is the size of the matrix.
 
-In random test case£º
-    S(small range)£ºEach of the entries in matrix a are limited to [1-10], matrix b are limited to [10-20] and matrix c are limited to [20-40] 
-    within£º a_lower_bound = 1;a_upper_bound = 10;b_lower_bound = 10;b_upper_bound = 20;c_lower_bound = 20;c_upper_bound = 40;
+In random test case:
+    S(small range)Â£ÂºEach of the entries in matrix a are limited to [1-10], matrix b are limited to [10-20] and matrix c are limited to [20-40] 
+    within: a_lower_bound = 1;a_upper_bound = 10;b_lower_bound = 10;b_upper_bound = 20;c_lower_bound = 20;c_upper_bound = 40;
 
     L(large range):  Each of the entries in matrix a are limited to [1-50], matrix b are limited to [50-100] and matrix c are limited to[100-400]
-    within£º a_lower_bound = 1;a_upper_bound = 50;b_lower_bound = 50;b_upper_bound = 100;c_lower_bound = 100;c_upper_bound = 400;
+    withinÂ£: a_lower_bound = 1;a_upper_bound = 50;b_lower_bound = 50;b_upper_bound = 100;c_lower_bound = 100;c_upper_bound = 400;
 
 QR1-Rgen_generator.cpp is used to generated the test case of "QR1-xxx-Rgen-S" and "QR1-xxx-Rgen-L". 
 In this code, the original test case comes from random test case. 
