@@ -107,8 +107,6 @@ void increasing_entries_generator(int* arr, int n)
 	quicksort(arr, 0, n - 1);
 }
 
-// Generate random entries for arr in decreasing order
-// PRE:
 void decreasing_entries_generator(int* arr, int n)
 {
 	quicksort(arr, 0, n - 1);
