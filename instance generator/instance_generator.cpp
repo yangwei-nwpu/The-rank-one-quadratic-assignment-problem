@@ -103,7 +103,7 @@ void quicksort(int* arr, int lowIndex, int highIndex)
 
 void increasing_entries_generator(int* arr, int n)
 {
-	//int x = n*n;
+	
 	quicksort(arr, 0, n - 1);
 }
 
@@ -122,7 +122,6 @@ void decreasing_entries_generator(int* arr, int n)
 	{
 		arr[i] = ar[i];
 	}
-	//display_one_dimensional_array(rowVector, n);
 }
 void generate_random_permutation(int n, int* p)
 {
@@ -175,7 +174,7 @@ void generate_QR1_NCR(int n, int range_num, int **a, int **b, int**c) {
 		if (zeroone[i] == 0)
 		{
 			increasing_entries_generator(a[i], n);
-			decreasing_entries_generator(b[i], n);//NCRow
+			decreasing_entries_generator(b[i], n);
 			for (int j = 0; j < n - 1; j++)
 			{
 				if (a[i][j] > a[i][j + 1])
@@ -188,7 +187,7 @@ void generate_QR1_NCR(int n, int range_num, int **a, int **b, int**c) {
 		else
 		{
 			decreasing_entries_generator(a[i], n);
-			increasing_entries_generator(b[i], n);//NCRow
+			increasing_entries_generator(b[i], n);
 		}
 	}
 	delete[] zeroone;
@@ -321,7 +320,7 @@ void generate_QR1_QAP(int n, int range_num, int **a, int **b, int**c) {
 	int aii, bii,n2;
 	ifstream ReadFile;
 	ReadFile.open(QAPname, ios::in);
-	if (ReadFile.fail())//文件打开失败:返回0
+	if (ReadFile.fail())
 	{
 		printf("Open file failed, make sure the source QAP file exists\n");
 	}
