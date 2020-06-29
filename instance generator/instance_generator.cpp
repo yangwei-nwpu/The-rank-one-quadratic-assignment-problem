@@ -1,7 +1,6 @@
 ﻿#include <iostream>
 #include <fstream>
 #include <stdlib.h>
-#include <ctime>
 #include <math.h>
 using namespace std;
 char filepath[100] = "test";//The folder in which the instances are stored
@@ -110,8 +109,6 @@ void increasing_entries_generator(int* arr, int n)
 
 // Generate random entries for arr in decreasing order
 // PRE:
-// PARAM: arr - one dimensional array, n - # of entries of arr;
-// POST:  entries of arr are in decreasing order
 void decreasing_entries_generator(int* arr, int n)
 {
 	quicksort(arr, 0, n - 1);
@@ -137,8 +134,6 @@ void generate_random_permutation(int n, int* p)
 	{
 		transpose(p[i], p[i + rand() % (n - i)]);
 	}
-	//bool istrue = func(p, n);
-	//cout << "istrue=" << istrue << endl;
 }
 void generate_random_zeroORone(bool * zeroone, int* p, int n)
 {
@@ -181,9 +176,7 @@ void generate_QR1_NCR(int n, int range_num, int **a, int **b, int**c) {
 	{
 		if (zeroone[i] == 0)
 		{
-			//cout << zeroone[i] << endl;
 			increasing_entries_generator(a[i], n);
-			//increasing_entries_generator(b[i], n);//PCRow
 			decreasing_entries_generator(b[i], n);//NCRow
 			for (int j = 0; j < n - 1; j++)
 			{
@@ -196,9 +189,7 @@ void generate_QR1_NCR(int n, int range_num, int **a, int **b, int**c) {
 		}
 		else
 		{
-			//cout << zeroone[i] << endl;
 			decreasing_entries_generator(a[i], n);
-			//decreasing_entries_generator(b[i], n);//PCRow
 			increasing_entries_generator(b[i], n);//NCRow
 		}
 	}
@@ -228,8 +219,7 @@ void generate_QR1_NCV(int n, int range_num, int **a, int **b, int**c) {
 			break;
 		}
 	}
-	//increasing_entries_generator(brr, n);//PCVct
-	decreasing_entries_generator(brr, n*n);//NCVct
+	decreasing_entries_generator(brr, n*n);
 	generate_random_permutation(n*n, p);
 	counter = 0;
 	for (int i = 0; i <n; i = i + 1)
@@ -264,10 +254,8 @@ void generate_QR1_PCR(int n, int range_num, int **a, int **b, int**c) {
 	{
 		if (zeroone[i] == 0)
 		{
-			//cout << zeroone[i] << endl;
 			increasing_entries_generator(a[i], n);
-			increasing_entries_generator(b[i], n);//PCRow
-			//decreasing_entries_generator(b[i], n);//NCRow
+			increasing_entries_generator(b[i], n);
 			for (int j = 0; j < n - 1; j++)
 			{
 				if (a[i][j] > a[i][j + 1])
@@ -279,10 +267,8 @@ void generate_QR1_PCR(int n, int range_num, int **a, int **b, int**c) {
 		}
 		else
 		{
-			//cout << zeroone[i] << endl;
 			decreasing_entries_generator(a[i], n);
-			decreasing_entries_generator(b[i], n);//PCRow
-			//increasing_entries_generator(b[i], n);//NCRow
+			decreasing_entries_generator(b[i], n);
 		}
 	}
 }
@@ -309,8 +295,7 @@ void generate_QR1_PCV(int n, int range_num, int **a, int **b, int**c) {
 			break;
 		}
 	}
-	increasing_entries_generator(brr, n*n);//PCVct
-	//decreasing_entries_generator(brr, n);//NCVct
+	increasing_entries_generator(brr, n*n);
 	generate_random_permutation(n*n, p);
 	counter = 0;
 	for (int i = 0; i <n; i = i + 1)
@@ -341,7 +326,6 @@ void generate_QR1_QAP(int n, int range_num, int **a, int **b, int**c) {
 	if (ReadFile.fail())//文件打开失败:返回0
 	{
 		printf("Open file failed, make sure the source QAP file exists\n");
-		//return 0;
 	}
 	else {
 		ReadFile >> n2;
@@ -400,7 +384,6 @@ int main()
 	int n, n1;
 	int type_num = 1;
 	int range_num = 1;
-	//long best_objective;
 	int **a, **b, **c;
 	int seed = 0;
 	char infile[100]="";
@@ -432,8 +415,6 @@ int main()
 		strcat(outfile, numc);
 		strcat(outfile, typef[type_num - 1]);
 		strcat(outfile, range[range_num]);
-		//cout << outfile << endl;
-		//system("pause");
 	}
 	else {
 		cout << "Enter the source QAP instance file name (Make sure the source file exists. For example, tai20a.txt):";
@@ -497,7 +478,6 @@ int main()
 		fun = generate_QR1_Random;
 		break;
 	}
-	//------------------------------------------------instantiating a,b,c(two dimensional) and l,u(constant)---------------------------------------//
 	srand(1);
 	fun(n, range_num, a, b, c);
 	FILE *fp;
@@ -517,5 +497,4 @@ int main()
 	delete[] c;
 	system("pause");
 	return 0;
-
 }
