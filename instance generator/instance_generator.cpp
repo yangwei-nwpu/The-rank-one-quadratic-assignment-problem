@@ -60,7 +60,6 @@ int partition(int* arr, int lowIndex, int highIndex)
 
 		if (arr[lowIndex] > arr[highIndex] && arr[highIndex] < arr[pivotIndex])
 		{
-			//swap arr[lowIndex] with arr[highIndex]
 			int low_index_value = arr[lowIndex];
 			arr[lowIndex] = arr[highIndex];
 			arr[highIndex] = low_index_value;
@@ -68,10 +67,9 @@ int partition(int* arr, int lowIndex, int highIndex)
 		}
 	}
 
-	//now lowIndex = highIndex
+
 	if (arr[lowIndex] >= arr[pivotIndex])
 	{
-		//swap arr[lowIndex] with arr[piviotIndex]
 		int low_index_value = arr[lowIndex];
 		arr[lowIndex] = arr[pivotIndex];
 		arr[pivotIndex] = low_index_value;
@@ -80,7 +78,6 @@ int partition(int* arr, int lowIndex, int highIndex)
 	}
 	else
 	{
-		//swap arr[lowIndex+1] with arr[pivotIndex]
 		int low_index_value = arr[lowIndex + 1];
 		arr[lowIndex + 1] = arr[pivotIndex];
 		arr[pivotIndex] = low_index_value;
