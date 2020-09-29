@@ -67,6 +67,11 @@ int partition(int* arr, int lowIndex, int highIndex)
 
 		}
 	}
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 61b96af42237e94370e11b7ac64585c093604790
 	if (arr[lowIndex] >= arr[pivotIndex])
 	{
 		int low_index_value = arr[lowIndex];
