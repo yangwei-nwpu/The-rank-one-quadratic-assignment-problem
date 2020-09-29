@@ -2,6 +2,7 @@
 #include <fstream>
 #include <stdlib.h>
 #include <math.h>
+#include <string.h>
 using namespace std;
 char filepath[100] = "test";//The folder in which the instances are stored
 char QR1name[10] = "QR1-";
@@ -66,11 +67,8 @@ int partition(int* arr, int lowIndex, int highIndex)
 
 		}
 	}
-
-	//now lowIndex = highIndex
 	if (arr[lowIndex] >= arr[pivotIndex])
 	{
-		//swap arr[lowIndex] with arr[piviotIndex]
 		int low_index_value = arr[lowIndex];
 		arr[lowIndex] = arr[pivotIndex];
 		arr[pivotIndex] = low_index_value;
@@ -403,7 +401,8 @@ int main()
 		cin >> n;
 		cout << endl;
 		char numc[20] = "";
-		itoa(n, numc, 10);
+		//itoa(n, numc, 10);
+		sprintf(numc, "%d", n);
 		strcat(outfile, filepath);
 		strcat(outfile, "/");
 		strcat(outfile, QR1name);
@@ -475,8 +474,7 @@ int main()
 	}
 	srand(1);
 	fun(n, range_num, a, b, c);
-	FILE *fp;
-	errno_t err = fopen_s(&fp, outfile, "a");
+	FILE *fp=fopen(outfile, "a");
 	fprintf(fp, "%d\n", n);
 	Display_Input_Instances(fp, a, n);
 	Display_Input_Instances(fp, b, n);
@@ -490,6 +488,6 @@ int main()
 	delete[] a;
 	delete[] b;
 	delete[] c;
-	system("pause");
+	//system("pause");
 	return 0;
 }
